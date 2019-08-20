@@ -1,0 +1,18 @@
+
+import java.util.*; 
+public class milesToKilometers
+{
+    public static void main(String args[])
+    {
+        double miles;
+        double kilometers;
+        Scanner keyboard = new Scanner(System.in); 
+        System.out.println("Enter any number of miles ");
+        miles = keyboard.nextDouble();
+        
+        kilometers = 1.60934 * miles; 
+        
+        System.out.println("Equivalent in kilometers: " + kilometers);
+    }
+}
+
