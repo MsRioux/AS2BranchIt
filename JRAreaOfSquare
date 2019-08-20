@@ -1,0 +1,13 @@
+public class MyClass 
+{
+    public static void main(String args[])
+    {
+      int side = 5;
+      int perimeter = 0;
+      
+      perimeter = 4 * side;
+      
+      System.out.println("The perimeter of a square with length " + side +
+                        " is " + perimeter);
+    }//end main method
+}//end class MyClass
