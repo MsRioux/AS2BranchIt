@@ -4,7 +4,7 @@ public class PythagoreanTheorem
     {
         //Instance Variables
         double a = 3, b = 4;
-        double c;
+        double c;//undeclared to calc hypotenuse
         
         //Calculations
         c = Math.pow(3,2) + Math.pow(4,2);
