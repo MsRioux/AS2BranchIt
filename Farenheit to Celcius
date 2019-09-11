@@ -1,0 +1,17 @@
+public class FarenheitToCelcius
+{
+    
+    public static void main(String args[]) 
+    {
+        final int base = 32;
+        final double conversionFactor = 9.0/5.0;
+        int celciusTemp = 24; 
+        double farenheitTemp;
+        farenheitTemp = celciusTemp 
+        
+
+        System.out.println("Celcius Temperature: " + celciusTemp);
+        System.out.println("Farenheit Equivalent: " + farenheitTemp);
+        
+    }
+}
