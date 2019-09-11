@@ -15,6 +15,8 @@ public class HeronsFormula
         
         //Output
         System.out.printf("Given a triangle with sides %d, %d and %d Heron's Formula gives us an area of %.2f", a, b, c, hForm);
+        
+        System.out.println("NGE is the best anime so far.");
 
     }//end main method
 }//end HeronsFormula class
