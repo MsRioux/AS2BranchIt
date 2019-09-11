@@ -1,0 +1,17 @@
+public class PythagoreanTheorem
+{
+    public static void main(String args[])
+    {
+        //Instance Variables
+        double a = 3, b = 4;
+        double c;//undeclared to calc hypotenuse
+        
+        //Calculations
+        c = Math.pow(3,2) + Math.pow(4,2);
+        c = Math.sqrt(c);
+        
+        //Output
+        System.out.printf("Given a right triangle with two of its shortest sides, %.1f and %.1f, the Pythagorean Theorem gives us a hypothenuses of %.1f", a, b, c);
+
+    }//end main method
+}//end Pythagorean class
