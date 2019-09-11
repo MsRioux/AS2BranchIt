@@ -15,6 +15,6 @@ public class HeronsFormula
         
         //Output
         System.out.printf("Given a triangle with sides %d, %d and %d Heron's Formula gives us an area of %.2f", a, b, c, hForm);
-
+//hello Mrs Rioux
     }//end main method
 }//end HeronsFormula class
